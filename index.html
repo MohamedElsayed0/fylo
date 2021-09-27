@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+      integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+      crossorigin="anonymous"
+    />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="./main.css" />
+
+    <title>Frontend Mentor | Fylo landing page with two column layout</title>
+  </head>
+  <body>
+    <!-- scroll back to top-->
+    <span class="arrowUp" id="arrowUp">
+      <i class="fas fa-chevron-up"></i>
+    </span>
+    <!-- side nav -->
+    <div class="sidenav" id="sidenav">
+      <ul class="sidenave-list">
+        <li class="sidenave-item"><a href="#Features">Features </a></li>
+        <li class="sidenave-item"><a href="#Team">Team </a></li>
+        <li class="sidenave-item"><a href="#Speakers">Sign In</a></li>
+      </ul>
+    </div>
+    <!-- filter To SideNav -->
+    <div class="filterToSideNav" id="filterToSideNav">
+      <span class="closeIcon" id="closeIconSideNav">
+        <i class="fas fa-times"></i>
+      </span>
+    </div>
+
+    <header>
+      <div class="nav-container" id="navContainer">
+        <div class="logo">
+          <a href="#home"
+            ><img class="" src="./images/logo.svg" alt="logo"
+          /></a>
+        </div>
+
+        <div class="linkes">
+          <ul class="nav-list">
+            <li class="navigat">
+              <a class="nav-lnk navigatactive" href="#Home">Features</a>
+            </li>
+            <li class="navigat"><a class="nav-lnk" href="#About">Team </a></li>
+            <li class="navigat">
+              <a class="nav-lnk" href="#Speakers">Sign In</a>
+            </li>
+          </ul>
+
+          <span id="toggleIconSideNav" class="toggleIcon">
+            <i class="fas fa-sliders-h"></i>
+          </span>
+        </div>
+      </div>
+    </header>
+
+    <!-- main -->
+    <main class="container-fluid">
+      <!-- section 1 -->
+      <div class="container All-your-files ">
+        <div class="row-reverse">
+          <div class="c-lg-6 c-md-11 c-12 row">
+            <h1 class="co-12 show-on-scroll">
+              All your files in one secure location, accessible anywhere.
+            </h1>
+            <p class="c-12 transleate-right">
+              Fylo stores your most important files in one secure location.
+              Access them wherever you need, share and collaborate with friends,
+              family, and co-workers.
+            </p>
+            <form class="c-12 row form transleate-left" name="form1">
+              <span class="c-lg-8 c-md-8 c-12">
+                <input
+                  style="width: 100%"
+                  type="text"
+                  placeholder="Enter your email"
+                  name="email1"
+                /><br />
+                <small id="error1">please chek your email</small>
+              </span>
+              <span class="c-lg-4 c-md-4 c-12">
+                <button style="margin: auto">Get Started</button>
+              </span>
+            </form>
+          </div>
+          <div class="c-lg-6 c-md-11 c-12 transleate-right">
+            <img
+              style="width: 100%"
+              src="./images/illustration-1.svg"
+              alt="illustration-1"
+            />
+          </div>
+        </div>
+      </div>
+
+      <!-- section 2 -->
+      <div class="curve">
+        <div class="">
+          <img src="./images/bg-curve-desktop.svg" alt="curve" />
+        </div>
+      </div>
+
+      <!-- section 3 -->
+      <div class="container-fluid Stay-productive">
+        <div class="container">
+          <div class="row-reverse">
+            <div class="c-lg-6 c-md-11 c-12 row ">
+              <h1 class="c-12 transleate-right">Stay productive,wherever you are</h1>
+              <p class="c-11 transleate-left">
+                Never let location be an issue when accessing your files. Fylo
+                has you covered for all of your file storage needs.
+              </p>
+              <p class="c-11 show-on-scroll">
+                Securely share files and folders with friends, family and
+                colleagues for live collaboration. No email attachments
+                required!
+              </p>
+
+              <span class="c-12 show-on-scroll">
+                <a href="#Fylo-works">
+                  See how Fylo works<img
+                    src="./images/icon-arrow.svg"
+                    alt="icon arrow"
+                  />
+                </a>
+              </span>
+
+              <div class="c-lg-7 c-12 fylo-improved row show-on-scroll">
+                <div class="c-12">
+                  <img src="./images/icon-quotes.svg" alt="icon-quotes" />
+                </div>
+
+                <p class="c-11">
+                  Fylo has improved our team productivity by an order of
+                  magnitude. Since making the switch our team has become a
+                  well-oiled collaboration machine.
+                </p>
+
+                <div class="c-12 row kyle">
+                  <img
+                    class="c-2"
+                    src="./images/avatar-testimonial.jpg"
+                    alt="kyle"
+                  />
+                  <div class="c-6">
+                    <span class="name">Kyle Burton</span><br />
+                    <span class="work">Founder & CEO, Huddle</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="c-lg-6 c-md-11 c-12 show-on-scroll">
+              <img
+                style="width: 100%"
+                src="./images/illustration-2.svg"
+                alt="illustration-2"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- section 4 -->
+      <div class="get-early container-fluid">
+        <div class="container">
+          <div class="row">
+            <div class="c-lg-6 c-md-11 c-12 transleate-right">
+              <h1>Get early access today</h1>
+              <p>
+                It only takes a minute to sign up and our free starter tier is
+                extremely generous. If you have any questions, our support team
+                would be happy to help you.
+              </p>
+            </div>
+
+            <div class="c-lg-5 c-md-11 c-12 transleate-left">
+              <form class="row" name="form2">
+                <span class="c-12">
+                  <input type="text" placeholder="Enter you email" name="email2"/>
+                  <small id="error2">please chek your email</small>
+                </span>
+                <button class="c-lg-6 c-12">Get Started For Free</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- footer -->
+    <footer class="container-fluid">
+        <div class="container">
+          <div class="row">
+
+            <div class="c-12 img transleate-right">
+                <img src="./images/logoW.svg" alt="logoW" />
+            </div>
+            
+            <div class="c-lg-3 c-md-4 c-12 contact transleate-right">
+              <img class="phone-img" src="./images/icon-phone.svg" alt="icon-phone" />
+              <span>Phone: +1-543-123-4567 </span><br>
+              <img src="./images/icon-email.svg" alt="icon-email" />
+              <span>example@fylo.com </span>
+            </div>
+
+            <div class="c-lg-3 c-md-4 c-12 center show-on-scroll" >
+              <ul>
+                <li><a href="#About">About Us</a></li>
+                <li><a href="#Jobs">Jobs</a></li>
+                <li><a href="#Press">Press</a></li>
+                <li><a href="#Blog">Blog</a></li>
+
+              </ul>
+            </div>
+
+           <div class="c-lg-3 c-md-4 c-12 center show-on-scroll">
+              <ul>
+                <li><a href="#Contact">Contact Us</a></li>
+                <li><a href="#Terms">Terms</a></li>
+                <li><a href="#Privacy">Privacy</a></li>
+              </ul>
+            </div>
+
+
+            <div class="c-lg-3 c-12 row social transleate-left">
+              <a class="facebook" href="https://www.facebook.com/" target="_balnk">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a class="twitter" href="https://twitter.com/" target="_balnk">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a class="instagram" href="https://www.instagram.com/" target="_balnk">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid Challenge-by show-on-scroll">
+        <div class="row">
+          <p class="attribution">
+            Challenge by
+            <a
+              href="https://www.frontendmentor.io?ref=challenge"
+              target="_blank">
+              Frontend Mentor
+            </a>
+            . Coded by <a href="https://codepen.io/mo7amed_elsayed_" target="_blank">Mohamed Elsayed</a> .
+          </p>
+        </div>
+     </div>
+    </footer>
+    <script src="./main.js"></script>
+  </body>
+</html>
