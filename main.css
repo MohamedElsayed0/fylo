@@ -555,6 +555,7 @@ main {
   margin-top: 170px;
   margin-bottom: 40px;
   font-weight: bold;
+  overflow: hidden;
 }
 @media (max-width: 768px) {
   .All-your-files .row-reverse .row {
@@ -621,11 +622,15 @@ main {
   background-color: #5da9dd;
 }
 
+.curve {
+  overflow: hidden;
+}
 .curve img {
   width: 100%;
 }
 
 .Stay-productive {
+  overflow: hidden;
   background-color: #f8f8fe;
   margin-top: -6px;
   padding-top: 50px;
@@ -709,6 +714,7 @@ main {
 }
 
 .get-early {
+  overflow: hidden;
   color: #f8f8fe;
   background-color: #585989;
   padding-top: 50px;
@@ -778,6 +784,7 @@ main {
 }
 
 footer {
+  overflow: hidden;
   background-color: #070439;
   color: #f8f8fe;
   padding-top: 50px;
